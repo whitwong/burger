@@ -1,0 +1,36 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Eat-Da-Burger full-stack application.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express-handlebars": "^3.0.0",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitwong/burger.git"
+  },
+  "keywords": [
+    "express",
+    "handlebars",
+    "body-parser",
+    "method-override",
+    "mvc",
+    "mysql"
+  ],
+  "author": "Whitney Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitwong/burger/issues"
+  },
+  "homepage": "https://github.com/whitwong/burger#readme"
+}
