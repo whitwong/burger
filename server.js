@@ -5,7 +5,7 @@ var methodOverride = require("method-override");
 var exphbs = require("express-handlebars");
 
 //Initial Variables
-var port = process.env.port || 8080;
+var port = process.env.PORT || 8080;
 var app = express();
 
 //Server static content for the app from the "public" directory
